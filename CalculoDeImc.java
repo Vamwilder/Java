@@ -5,8 +5,8 @@ public class CalculoDeImc {
 		
 		// Arrecadando informações
 		JOptionPane.showMessageDialog(null, "Vamos calcular seu IMC, (Indice de massa corporal).");
-		String altura = JOptionPane.showInputDialog("Digite sua Altura");
-		String peso = 	JOptionPane.showInputDialog("Digite seu peso");
+		String altura 	= JOptionPane.showInputDialog("Digite sua Altura");
+		String peso 	= JOptionPane.showInputDialog("Digite seu peso");
 		
 		// Convertendo String para float
 		double altura2 	= Double.parseDouble(altura);
